@@ -1,6 +1,8 @@
 import random
 from collections import Counter
-
+''' probability estimate for dice bar game w changing rules. 
+    user enters the new rules for the day and runs simulations.
+     Useful to determine if the pot is worth gambling for '''
 def roll_dice(n=5):
     return [random.randint(1, 6) for _ in range(n)]
 
